@@ -1,21 +1,39 @@
-// src/components/Dashboard.js
+// Dashboard.js
 import React, { useState, useEffect } from 'react';
 
 function Dashboard() {
     const defaultPosts = [
         {
           id: 1,
-          text: "What an amazing day !",
-          likes: 5,
-          dislikes: 2,
+          text: "Fantastic! You've just set up your first route",
+          likes: 0,
+          dislikes: 0,
         },
         {
           id: 2,  
-          text: "Think. Feel. Collaborate !",
-          likes: 10,
-          dislikes: 3,
+          text: "Create. Innovate. Inspire!",
+          likes: 0,
+          dislikes: 0,
         },
-        // Add more default posts as needed
+        {
+          id: 3,  
+          text: "Explore. Dream. Achieve!",
+          likes: 0,
+          dislikes: 0,
+        },
+        {
+          id: 4,  
+          text: "Innovate!",
+          likes: 0,
+          dislikes: 0,
+        },
+        {
+          id: 5,  
+          text: "Success!",
+          likes: 0,
+          dislikes: 0,
+        },
+        
       ];
       
   const [posts, setPosts] = useState([]);

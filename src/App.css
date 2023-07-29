@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #24b66d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,14 +37,23 @@
   }
 }
 /* src/App.css */
+/* src/App.css */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #f7f7f7; /* Light gray background color */
+  background-image: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000'); /* Background image */
+  background-size: cover;
+  background-position: center;
 }
 
+/* ... other CSS styles ... */
+
+
 .navbar {
-  background-color: #545450f7;
-  color: #fff;
+  background-color: #dada29f7;
+  background-image: url('https://img.freepik.com/premium-photo/abstract-sky-background-sweet-color_6529-1657.jpg');
+  color: #c56f6f;
   padding: 1px;
   position: fixed;
   top: 0;
@@ -55,11 +64,13 @@ body {
 .navbar ul {
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 .navbar li {
   padding: 5px;
+  margin: 10px;
+  
 }
 
 .dashboard {
@@ -71,13 +82,20 @@ body {
 
 .post-container {
   margin-bottom: 80px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  
 }
 
 .post-container textarea {
   width: 100%;
   height: 80px;
   resize: none;
-  border: 1px solid #ccc;
+  border: 1px solid #2f2a2a;
   padding: 5px;
   font-size: 16px;
   border-radius: 5px;
@@ -91,8 +109,8 @@ body {
 
 .button-container button {
   padding: 10px 20px;
-  background-color: #eb0808;
-  color: #fff;
+  background-color: #60a57a;
+  color: #0b0a0a;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -146,8 +164,9 @@ body {
 }
 
 .alert {
-  background-color: #4caf50;
-  color: #fff;
+  /* background-color: #d13640; */
+  background: none;
+  color: #100e0e;
   text-align: center;
   padding: 10px;
   position: fixed;
